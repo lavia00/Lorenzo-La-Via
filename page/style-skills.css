@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bebas Neue', cursive;
-    text-decoration: none;
 }
 
 body{
@@ -22,31 +21,21 @@ body{
     width:100px;
     border-radius:20px;
     margin: 20px 0px 0px 20px;
-}
-#skill:visited{
-    color:white;
-}
-.menu{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    align-content: center;
 
 }
+
 
 .head-menu {
     display: flex;
     justify-content:center;
     list-style: none;
     color: white;
-    text-decoration: none;
 }
 .menu-text {
     padding:10px;
     margin-top:40px;
     font-size: 20px;
     letter-spacing:5px;
-    
     
 }
 .menu-text:hover {
